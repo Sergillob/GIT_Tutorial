@@ -9,6 +9,6 @@ git checkout -b nombranch               ->Et crea la Branca i et mou a la nova b
 git pull                                ->Quan fem un push primer i volem recuperar el pujat a una altra branca
 git status                              ->Et diu el status de la branch on estiguis
 
-git config --global user.name "Sergi Ll" ->Per configurar Nom i mail inicial
+git config --global user.name "Seergillob" ->Per configurar Nom i mail inicial (Ho pots canviar)
 git config --global user.email "sergillob@gmail.com" ->Per configurar Nom i mail inicial
 git config --list                         ->Per veure les teves configuracions
