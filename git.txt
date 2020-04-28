@@ -1,9 +1,14 @@
-git init                               ->Per inicialitzar un repositori GIT
-git add .                              ->Per fer Staged de tots els fitxers
-git commit -m "Missatge del commit"    ->Per fer commit dels canvis q tenim al Staged area
-git commit -am "Misstage del commit"   ->Per fer add i commit a la vegada (2 anteriors)
-git push                               ->Per passar els canvis al Github(un cop creat)
-git branch nombranch                   ->Per crear Branca
-git checkout nombranch                 ->Per moure't entre Branches
-git checkout -b nombranch              ->Et crea la Branca i et mou a la nova branca creada(Sumatori dels 2 anteriors)
-git pull                               ->Quan fem un push primer i volem recuperar el pujat a una altra branca
+git init                                ->Per inicialitzar un repositori GIT
+git add .                               ->Per fer Staged de tots els fitxers
+git commit -m "Missatge del commit"     ->Per fer commit dels canvis q tenim al Staged area
+git commit -am "Misstage del commit"    ->Per fer add i commit a la vegada (2 anteriors)
+git push                                ->Per passar els canvis al Github(un cop creat)
+git branch nombranch                    ->Per crear Branca
+git checkout nombranch                  ->Per moure't entre Branches
+git checkout -b nombranch               ->Et crea la Branca i et mou a la nova branca creada(Sumatori dels 2 anteriors)
+git pull                                ->Quan fem un push primer i volem recuperar el pujat a una altra branca
+git status                              ->Et diu el status de la branch on estiguis
+
+git config --global user.name "Sergi Ll" ->Per configurar Nom i mail inicial
+git config --global user.email "sergillob@gmail.com" ->Per configurar Nom i mail inicial
+git config --list                         ->Per veure les teves configuracions
